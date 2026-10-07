@@ -18,7 +18,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
 }) => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
-  const [category, setCategory] = useState('개발');
+  const [category, setCategory] = useState('인허가');
   const [customCategory, setCustomCategory] = useState('');
   const [priority, setPriority] = useState<Priority>('medium');
   const [status, setStatus] = useState<ProjectStatus>('in-progress');
@@ -51,7 +51,7 @@ export const ProjectModal: React.FC<ProjectModalProps> = ({
       const today = new Date().toISOString().slice(0, 10);
       setTitle('');
       setDescription('');
-      setCategory('개발');
+      setCategory('인허가');
       setCustomCategory('');
       setPriority('medium');
       setStatus('in-progress');

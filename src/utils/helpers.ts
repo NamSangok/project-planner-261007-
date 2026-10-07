@@ -58,4 +58,4 @@ export const PRIORITY_MAP: Record<Priority, { label: string; badge: string }> = 
   low: { label: '낮음', badge: 'bg-slate-100 text-slate-700 dark:bg-slate-800 dark:text-slate-300 border-slate-300 dark:border-slate-700' },
 };
 
-export const CATEGORIES = ['전체', '개발', '기획', '디자인', '마케팅', '운영', '연구/공부', '개인'];
+export const CATEGORIES = ['전체', '인허가', '품질관리', '생산관련', '개발', '정보', '기타'];
